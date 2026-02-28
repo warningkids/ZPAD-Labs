@@ -69,11 +69,11 @@
 
 Спочатку необхідно клонувати репозиторій на свій комп’ютер:
 
-git clone https://github.com/warningkids/ZPAD-Labs.git
+- git clone https://github.com/warningkids/ZPAD-Labs.git
 
 Після цього перейдіть у директорію проєкту:
 
-cd ZPAD-Labs/Lab6
+- cd ZPAD-Labs/Lab6
 
 **⚙ Встановлення залежностей**
 
