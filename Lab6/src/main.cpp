@@ -24,9 +24,16 @@ int main() {
         cv::Mat frame = camera.getFrame();
 
         if (frame.empty()) {
-            std::cout << "Frame is empty!" << std::endl;
-            continue;
-        }
+    std::cout << "Frame is empty! Retrying..." << std::endl;
+
+    // пробуем получить кадр ещё раз
+    frame = camera.getFrame();
+
+    // если снова пусто — пропускаем
+    if (frame.empty()) {
+        continue;
+    }
+}
 
         cv::Mat processed = processor.process(frame, keyProcessor.currentMode);
 
