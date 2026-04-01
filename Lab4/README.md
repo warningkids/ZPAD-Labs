@@ -60,7 +60,7 @@
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## **▶️ Запуск програми**
 
 python main.py
