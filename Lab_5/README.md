@@ -19,7 +19,6 @@
    ```   
 
 2. Запустіть додаток:
-
-```bash
+   ```bash
    streamlit run app.py
-```
+   ```
