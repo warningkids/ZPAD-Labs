@@ -21,5 +21,5 @@
 2. Запустіть додаток:
 
 ```bash
-streamlit run app.py
+   streamlit run app.py
 ```
